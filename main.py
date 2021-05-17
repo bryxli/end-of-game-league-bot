@@ -158,4 +158,4 @@ async def on_ready():
     await client.change_presence(activity=discord.Game(name='$lolhelp'))
 
 
-client.run('DISCORD-API-TOKEN')
+client.run('<DISCORD-API-TOKEN>')
