@@ -4,13 +4,14 @@ Easy to use Discord bot that allows a user to input specific usernames. The bot 
 **To start the bot, run $lolsetup to specify text channel to send statistics to.**
 
 Commands:  
-$lolhelp - help menu.  
 $lolsetup <CHANNEL ID> - run bot setup.  
 $lolname <SUMMONER NAME> - adds a user to the list.  
-$loldel <SUMMOENR NAME> - deletes a user from the list.  
+$loldel <SUMMONER NAME> - deletes a user from the list.  
+$loldelall - clears the user list.  
 $lolprint - print all users on the list.  
+$lolsave - save names of all users to \data.json.  
+$lolimport - imports user list from \data.json.
 
 Bot checks match history of player list every minute. Repeat matches will not be displayed.   
 **NOTE: If SUMMONER NAME includes spaces, the name must be surrounded in quotes.**  
-
-Code hosted on www.repl.it and powered by www.uptimerobot.com
+**May be detected as a trojan due to the use of PyInstaller to compile.**  
