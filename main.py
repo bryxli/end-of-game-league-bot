@@ -36,6 +36,7 @@ async def status_task():
                 if match_detail != userHistory.get(i):
                     userHistory[i] = match_detail
                     participants_row = {}
+                    complete = False
                     for row1 in match_detail['participants']:
                         for row2 in match_detail['participantIdentities']:
                             if row1['participantId'] == row2['participantId']:
@@ -58,7 +59,10 @@ async def status_task():
                                         kda = 'perfect'
                                     await channel.send(i + ' just ' + winloss + 'a game on ' + participants_row[
                                         'champion'] + ' with a ' + str(kda) + ' KDA.')
+                                    complete = True
                                     break
+                        if complete:
+                            break
         except Exception as ex:
             print(str(ex))
         await asyncio.sleep(60)  # every minute
