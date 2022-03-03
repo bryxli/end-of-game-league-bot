@@ -1,4 +1,4 @@
-# **CURRENTLY NON-FUNCTIONAL DUE TO RIOTWATCHER UPDATE 
+# CURRENTLY NOT FUNCTIONAL DUE TO RIOTWATCHER UPDATE 
 # end-of-game-league-bot  
 A Discord bot that allows a user to input specific usernames. The bot will automatically ping a user after their game has ended stating win/loss and KDA. This will allow users who usually play together to easily keep track of each other's in-game statistics via Discord messaging. The bot checks player statistics every minute.    
 **IMPORTANT: MUST CHANGE \<RIOT-API-TOKEN> AND \<DISCORD-API-TOKEN> LOCATED IN main.py**  
