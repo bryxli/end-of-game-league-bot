@@ -18,4 +18,4 @@ Bot checks match history of player list every minute. Repeat matches will not be
 **May be detected as a trojan due to the use of PyInstaller to compile.**  
 Compiled with command: pyinstaller --onefile --windowed --icon=icon.ico main.py
 
-# does not work with current version of RiotWatcher
+**does not work with current version of RiotWatcher
